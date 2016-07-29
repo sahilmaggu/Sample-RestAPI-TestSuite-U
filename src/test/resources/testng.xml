@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample-RestAPI-TestSuite-U" parallel="methods" data-provider-thread-count="1" thread-count="10">
+
+<test name="API Tests" preserve-order="true">
+    <classes>
+    	<class name="com.kiwi.prod.api.UserAPITest" ></class> 
+    	
+    	  
+    </classes>
+</test>
+</suite>
